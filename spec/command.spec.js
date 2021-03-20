@@ -10,7 +10,7 @@ describe("Command class", function() {
   });
 
   it("constructor sets command type", function() {
-    let command = new Command('STATUS_CHECK');
+    let command = new Command('oops');
     expect(command.commandType).toEqual('STATUS_CHECK');
   });
 
